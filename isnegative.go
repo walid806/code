@@ -1,19 +1,14 @@
 package main
 import "fmt"
+func IsNegative (nb int) {
 
-func main() {
-	IsNegative(10)
-	IsNegative(0)
-	IsNegative(-1)
+	if nb >= 0 {
+	        fmt.Println("F")
+	} else {
+		fmt.Println("T")
+	}
+	
 }
-func IsNegative(nb int) {
-if nb > 0 {
-fmt.Println("1")
-}
-if nb == 0  {
-	fmt.Println("0")
-}
-if nb < 0 {
-	fmt.Println("-1")
-}
+func main(){
+	IsNegative(1)
 }
